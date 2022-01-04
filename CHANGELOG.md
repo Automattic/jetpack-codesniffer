@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Disable CI tests on 8.1, PHPCompatibility raises deprecation warnings.
 - Reconfigure phpcs so we don't need so many `phpcs:ignore` comments.
 - Switch to pcov for code coverage.
+- Updated package dependencies
 
 ## [2.3.0] - 2021-11-02
 ### Changed
