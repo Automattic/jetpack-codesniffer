@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Fixed
 - Fixed minor coding standard violation.
+- Update `wp-coding-standards/wpcs` to `dev-develop`. They haven't done a release in over a year, and we need fixes for errors in PHP 8.0 and 8.1.
 
 ## [2.4.0] - 2022-02-01
 ### Added
