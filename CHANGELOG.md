@@ -11,7 +11,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add sniff to disallow relative file includes.
-- WordPress ruleset
 
 ### Fixed
 - Fixed minor coding standard violation.
