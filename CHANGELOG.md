@@ -15,9 +15,6 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Adjust deps on dev-develop of wp-coding-standards/wpcs to not require users install it.
 
-### Removed
-- Yoda conditional checks are no longer enforced.
-
 ### Fixed
 - Fixed minor coding standard violation.
 - Resync PHPUnitTestTrait hack and have it detect "Testcase" in addition to "TestCase".
