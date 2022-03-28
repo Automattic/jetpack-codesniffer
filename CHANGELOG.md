@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add sniff to disallow relative file includes.
+- Removed requirement for an ending character on inline comments and enabled MediaWiki.Usage.IsNull
 
 ### Changed
 - Adjust deps on dev-develop of wp-coding-standards/wpcs to not require users install it.
