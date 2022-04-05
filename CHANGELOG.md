@@ -5,10 +5,7 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [2.5.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [2.5.0] - 2022-04-05
 ### Added
 - Add sniff to disallow relative file includes.
 - Removed requirement for an ending character on inline comments and enabled MediaWiki.Usage.IsNull
@@ -92,7 +89,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[2.5.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.4.0...v2.5.0-alpha
+[2.5.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.4.0...v2.5.0
 [2.4.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.3.0...v2.4.0
 [2.3.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.2.1...v2.3.0
 [2.2.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.2.0...v2.2.1
