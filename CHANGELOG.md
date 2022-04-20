@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Import rules from `WordPress` instead of `WordPress-Core`, `WordPress-Docs`, and `WordPress-Extra` individually. This adds two new rules.
 
+### Fixed
+- Detect classes like `WP_Test_.*_Case` as test case base classes too.
+
 ## [2.5.0] - 2022-04-05
 ### Added
 - Add sniff to disallow relative file includes.
