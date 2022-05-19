@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Added lint to ensure httponly is set (or intentionally ignored) on setcookie.
 - Import rules from `WordPress` instead of `WordPress-Core`, `WordPress-Docs`, and `WordPress-Extra` individually. This adds two new rules.
 
 ### Changed
