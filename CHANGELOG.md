@@ -15,7 +15,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Rulesets: allow the use of lowercase WordPress.
-- Updated package dependencies
 - Updated package dependencies.
 
 ### Fixed
