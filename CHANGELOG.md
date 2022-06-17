@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 - Import rules from `WordPress` instead of `WordPress-Core`, `WordPress-Docs`, and `WordPress-Extra` individually. This adds two new rules.
 
 ### Changed
+- Renaming master to trunk.
 - Rulesets: allow the use of lowercase WordPress.
 - Updated package dependencies.
 
