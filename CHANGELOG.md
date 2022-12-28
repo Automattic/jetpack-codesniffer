@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add `MediaWiki.WhiteSpace.EmptyLinesBetweenUse` sniff.
 
+### Fixed
+- Rolled back a dependency update that caused breaking changes in Jetpack trunk.
+
 ## [2.6.1] - 2022-11-01
 ### Changed
 - Updated package dependencies.
