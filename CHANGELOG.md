@@ -12,6 +12,9 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add `MediaWiki.WhiteSpace.EmptyLinesBetweenUse` sniff.
 
+### Changed
+- Updated to a newer snapshot of WordPress-Coding-Standards, which adds a number of new sniffs.
+
 ### Fixed
 - Rolled back a dependency update that caused breaking changes in Jetpack trunk.
 
