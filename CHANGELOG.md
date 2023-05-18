@@ -11,7 +11,6 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Added MediaWiki.Usage.ForbiddenFunctions rule to use preferred functions
-- Set keywords to have `composer require` prompt for `--dev` on installation.
 
 ### Changed
 - Updated package dependencies.
