@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.9.0-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Added
+- Added rulesets `Jetpack-Compat-*` to disable PHPCompatibility rules that trigger with `testVersion` 5.6 but don't apply to various later PHP versions.
+
 ## [2.8.0] - 2023-06-06
 ### Added
 - Added MediaWiki.Usage.ForbiddenFunctions rule to use preferred functions
@@ -124,6 +131,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Codesniffer: Add a package to hold our coding standard
 
+[2.9.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v2.9.0-alpha
 [2.8.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.6.1...v2.7.0
 [2.6.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.6.0...v2.6.1
