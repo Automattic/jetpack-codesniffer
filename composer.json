@@ -16,12 +16,11 @@
 		"mediawiki/mediawiki-codesniffer": "^41.0",
 		"phpcompatibility/phpcompatibility-wp": "^2.1",
 		"sirbrillig/phpcs-variable-analysis": "^2.10",
-		"wp-coding-standards/wpcs": "^2.3",
-		"automattic/vipwpcs": "^2.3"
+		"wp-coding-standards/wpcs": "^3.0",
+		"automattic/vipwpcs": "^3.0"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^3.3.8",
-		"wp-coding-standards/wpcs": "2023-01-04 as 2.3.1",
+		"automattic/jetpack-changelogger": "^3.3.9-alpha",
 		"yoast/phpunit-polyfills": "1.1.0"
 	},
 	"autoload": {
@@ -43,12 +42,6 @@
 			"@composer phpunit"
 		]
 	},
-	"repositories": [
-		{
-			"type": "vcs",
-			"url": "https://github.com/Automattic/WordPress-Coding-Standards"
-		}
-	],
 	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"extra": {
@@ -58,7 +51,7 @@
 			"link-template": "https://github.com/Automattic/jetpack-codesniffer/compare/v${old}...v${new}"
 		},
 		"branch-alias": {
-			"dev-trunk": "2.9.x-dev"
+			"dev-trunk": "3.0.x-dev"
 		}
 	},
 	"config": {
