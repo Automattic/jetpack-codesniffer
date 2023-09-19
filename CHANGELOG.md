@@ -14,6 +14,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - Update to WordPress-Coding-Standards 3.0.
+- Update `Jetpack-Compat-*` rulesets against PHPCompatibility develop branch.
 
 ### Removed
 - Exclude new `WordPress.Security.EscapeOutput.ExceptionNotEscaped` sniff. https://core.trac.wordpress.org/ticket/59282 is the correct way to fix the underlying issue it's trying to avoid, this would cause other problems.
