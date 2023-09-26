@@ -10,7 +10,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
+- Add "Jetpack-NoWP" ruleset.
 - Added rulesets `Jetpack-Compat-*` to disable PHPCompatibility rules that trigger with `testVersion` 5.6 but don't apply to various later PHP versions.
+- Add `Jetpack-Compat-NoWP` ruleset.
 
 ### Changed
 - Update to WordPress-Coding-Standards 3.0.
