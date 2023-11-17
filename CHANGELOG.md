@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Add `Jetpack-Compat-NoWP` ruleset.
 
 ### Changed
+- BREAKING: Drop support for PHP 5.6. `testVersion` should be set to `7.0-`.
 - Update to WordPress-Coding-Standards 3.0.
 - Update `Jetpack-Compat-*` rulesets against PHPCompatibility develop branch.
 
