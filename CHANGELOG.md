@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Add "Jetpack-NoWP" ruleset.
 - Added rulesets `Jetpack-Compat-*` to disable PHPCompatibility rules that trigger with `testVersion` 5.6 but don't apply to various later PHP versions.
 - Add `Jetpack-Compat-NoWP` ruleset.
+- Enable `MediaWiki.AlternativeSyntax.UnicodeEscape` sniff.
 
 ### Changed
 - BREAKING: Drop support for PHP 5.6. `testVersion` should be set to `7.0-`.
