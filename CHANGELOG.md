@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 - Add `Jetpack-Compat-NoWP` ruleset.
 - Declare requirement of PHP >= 7.4.
 - Enable `MediaWiki.AlternativeSyntax.UnicodeEscape` sniff.
+- Enable `Modernize.FunctionCalls.Dirname.Nested` sniff that is currently being disabled by WordPress-Extra.
 
 ### Changed
 - BREAKING: Drop support for PHP 5.6. `testVersion` should be set to `7.0-`.
