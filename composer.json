@@ -21,7 +21,7 @@
 		"automattic/vipwpcs": "^3.0"
 	},
 	"require-dev": {
-		"automattic/jetpack-changelogger": "^4.1.0",
+		"automattic/jetpack-changelogger": "^4.1.1-alpha",
 		"yoast/phpunit-polyfills": "1.1.0"
 	},
 	"autoload": {
