@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [3.0.1-alpha] - unreleased
+## [4.0.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs.
 
 ## [3.0.0] - 2024-02-07
 ### Added
@@ -151,7 +154,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[3.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v3.0.1-alpha
+[4.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0-alpha
 [3.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v3.0.0
 [2.8.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.6.1...v2.7.0
