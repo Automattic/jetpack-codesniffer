@@ -9,8 +9,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Jetpack.Functions.SetCookie: Support new options syntax from PHP 7.3+.
+
 ### Changed
 - Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs.
+
+### Fixed
+- Jetpack.Functions.SetCookie: Report correct line numbers for multi-line calls.
 
 ## [3.0.0] - 2024-02-07
 ### Added
