@@ -13,6 +13,7 @@ This is an alpha version! The changes listed here are not final.
 - Jetpack.Functions.SetCookie: Support new options syntax from PHP 7.3+.
 
 ### Changed
+- Jetpack-Tests: No longer exclude `Squiz.Commenting.*.WrongStyle`.
 - Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs.
 
 ### Fixed
