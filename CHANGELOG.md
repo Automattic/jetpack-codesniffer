@@ -15,6 +15,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Jetpack-Tests: No longer exclude `Squiz.Commenting.*.WrongStyle`.
 - Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs.
+- Updated package dependencies.
 
 ### Fixed
 - Jetpack.Functions.SetCookie: Report correct line numbers for multi-line calls.
