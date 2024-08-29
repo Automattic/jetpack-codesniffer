@@ -5,20 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [4.0.0] - 2024-08-29
 ### Added
-- Jetpack.Functions.SetCookie: Support new options syntax from PHP 7.3+.
+- Jetpack.Functions.SetCookie: Support new options syntax from PHP 7.3+. [#37062]
 
 ### Changed
-- Jetpack-Tests: No longer exclude `Squiz.Commenting.*.WrongStyle`.
-- Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs.
-- Updated package dependencies.
+- Jetpack-Tests: No longer exclude `Squiz.Commenting.*.WrongStyle`. [#37290]
+- Updated mediawiki/mediawiki-code-sniffer dep. This may bring new sniffs. [#36408]
+- Updated package dependencies. [#39004]
 
 ### Fixed
-- Jetpack.Functions.SetCookie: Report correct line numbers for multi-line calls.
+- Jetpack.Functions.SetCookie: Report correct line numbers for multi-line calls. [#37062]
 
 ## [3.0.0] - 2024-02-07
 ### Added
@@ -162,7 +159,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[4.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0-alpha
+[4.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v3.0.0
 [2.8.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.7.0...v2.8.0
 [2.7.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.6.1...v2.7.0
