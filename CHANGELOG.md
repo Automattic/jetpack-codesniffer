@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.0.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update Jetpack-Compat rulesets.
+
 ## [4.0.0] - 2024-08-29
 ### Added
 - Jetpack.Functions.SetCookie: Support new options syntax from PHP 7.3+. [#37062]
@@ -159,6 +166,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Codesniffer: Add a package to hold our coding standard
 
+[4.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v4.0.0...v4.0.1-alpha
 [4.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v3.0.0
 [2.8.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.7.0...v2.8.0
