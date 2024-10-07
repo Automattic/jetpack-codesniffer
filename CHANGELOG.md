@@ -5,12 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [4.0.1-alpha] - unreleased
+## [5.0.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Disable new `Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses` sniff for now, pending discussion.
 - Update Jetpack-Compat rulesets.
+- Use mediawiki/mediawiki-codesniffer v44.
+
+### Removed
+- `MediaWiki.Usage.DoubleNotOperator` has been removed. `Universal.CodeAnalysis.NoDoubleNegative.FoundDouble`, which serves the same purpose, will be included via the WordPress-Extra ruleset v3.1.0.
 
 ## [4.0.0] - 2024-08-29
 ### Added
@@ -166,7 +171,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[4.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v4.0.0...v4.0.1-alpha
+[5.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v4.0.0...v5.0.0-alpha
 [4.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v3.0.0
 [2.8.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.7.0...v2.8.0
