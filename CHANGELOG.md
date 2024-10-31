@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Added
+- Enable test coverage.
+
 ### Changed
 - Disable new `Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses` sniff for now, pending discussion.
 - Update Jetpack-Compat rulesets.
