@@ -19,6 +19,7 @@ This is an alpha version! The changes listed here are not final.
 - Use mediawiki/mediawiki-codesniffer v44.
 
 ### Removed
+- General: Update minimum PHP version to 7.2.
 - `MediaWiki.Usage.DoubleNotOperator` has been removed. `Universal.CodeAnalysis.NoDoubleNegative.FoundDouble`, which serves the same purpose, will be included via the WordPress-Extra ruleset v3.1.0.
 
 ## [4.0.0] - 2024-08-29
