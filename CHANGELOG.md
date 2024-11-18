@@ -48,9 +48,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Changed
 - BREAKING: Drop support for PHP 5.6. `testVersion` should be set to `7.0-`. [#34126]
-- Updated package dependencies. [#31609]
-- Updated package dependencies. [#32605]
-- Updated package dependencies. [#34338]
+- Updated package dependencies. [#31609] [#32605] [#34338]
 - Update to WordPress-Coding-Standards 3.0. [#32608]
 - Update `Jetpack-Compat-*` rulesets against PHPCompatibility develop branch. [#33112]
 
