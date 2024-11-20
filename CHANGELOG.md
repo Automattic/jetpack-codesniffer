@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 ### Changed
 - Add `WordPress.WP.GlobalVariablesOverride` to `Jetpack-NoWP` ruleset.
 - Disable new `Generic.CodeAnalysis.RequireExplicitBooleanOperatorPrecedence.MissingParentheses` sniff for now, pending discussion.
+- Updated package dependencies.
 - Update Jetpack-Compat rulesets.
 - Use mediawiki/mediawiki-codesniffer v44.
 
