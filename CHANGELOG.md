@@ -11,8 +11,10 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Ignore `WordPress.Security.ValidatedSanitizedInput.MissingUnslash` in `Jetpack-NoWP` ruleset.
+- Jetpack-Tests: Exclude `WordPress.DB.DirectDatabaseQuery`, if tests trigger it they're probably doing it intentionally.
 
 ### Changed
+- Jetpack-Tests: Exclude filenames semi-required by PHPUnit 10+ from `WordPress.Files.FileName` rules.
 - Update package dependencies.
 
 ## [5.0.0] - 2025-01-09
