@@ -8,4 +8,3 @@
 /changelog/**              production-exclude
 /tests/**                  production-exclude
 /build-compat-rulesets.sh  production-exclude
-/check-docs.sh             production-exclude

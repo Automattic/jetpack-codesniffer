@@ -10,7 +10,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Added
-- Add documentation for included custom sniffs.
 - Ignore `WordPress.Security.ValidatedSanitizedInput.MissingUnslash` in `Jetpack-NoWP` ruleset.
 - Jetpack-Tests: Exclude `WordPress.DB.DirectDatabaseQuery`, if tests trigger it they're probably doing it intentionally.
 - New sniff `Jetpack.PHPUnit.TestClassName` to check PHPUnit test class names against PHPUnit's requirements.
