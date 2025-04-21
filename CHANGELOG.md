@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add documentation for included custom sniffs.
+- Add `Jetpack.PHPUnit.Attributes` sniff.
 - Add `Jetpack.PHPUnit.TestMethodCovers` sniff.
 - Ignore `WordPress.Security.ValidatedSanitizedInput.MissingUnslash` in `Jetpack-NoWP` ruleset.
 - Jetpack-Tests: Exclude `WordPress.DB.DirectDatabaseQuery`, if tests trigger it they're probably doing it intentionally.
