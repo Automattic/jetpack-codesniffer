@@ -24,6 +24,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Removed
 - Drop support for PHP <8.0.
+- General: Update minimum WordPress version to 6.7.
 
 ## [5.0.0] - 2025-01-09
 ### Added
