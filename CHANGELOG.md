@@ -5,26 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [6.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [6.0.0] - 2025-05-13
 ### Added
-- Add documentation for included custom sniffs.
-- Add `Jetpack.PHPUnit.Attributes` sniff.
-- Add `Jetpack.PHPUnit.TestMethodCovers` sniff.
-- Ignore `WordPress.Security.ValidatedSanitizedInput.MissingUnslash` in `Jetpack-NoWP` ruleset.
-- Jetpack-Tests: Exclude `WordPress.DB.DirectDatabaseQuery`, if tests trigger it they're probably doing it intentionally.
-- New sniff `Jetpack.PHPUnit.TestClassName` to check PHPUnit test class names against PHPUnit's requirements.
-- New sniff `Jetpack.PHPUnit.UseTestCase` to check that `use`s of PHPUnit `TestCase` base classes don't use aliases that will confuse our other sniffs.
+- Add documentation for included custom sniffs. [#42752]
+- Add `Jetpack.PHPUnit.Attributes` sniff. [#43169]
+- Add `Jetpack.PHPUnit.TestMethodCovers` sniff. [#42758]
+- Ignore `WordPress.Security.ValidatedSanitizedInput.MissingUnslash` in `Jetpack-NoWP` ruleset. [#41860]
+- Jetpack-Tests: Exclude `WordPress.DB.DirectDatabaseQuery`; if tests trigger it they're probably doing it intentionally. [#42028]
+- New sniff `Jetpack.PHPUnit.TestClassName` to check PHPUnit test class names against PHPUnit's requirements. [#41930]
+- New sniff `Jetpack.PHPUnit.UseTestCase` to check that `use`s of PHPUnit `TestCase` base classes don't use aliases that will confuse our other sniffs. [#41930]
 
 ### Changed
-- Jetpack-Tests: Exclude filenames semi-required by PHPUnit 10+ from `WordPress.Files.FileName` rules.
-- Update package dependencies.
+- Jetpack-Tests: Exclude filenames semi-required by PHPUnit 10+ from `WordPress.Files.FileName` rules. [#42028]
+- Update package dependencies. [#41925]
 
 ### Removed
-- Drop support for PHP <8.0.
-- General: Update minimum WordPress version to 6.7.
+- Drop support for PHP <8.0. [#41930]
+- General: Update minimum WordPress version to 6.7. [#43192]
 
 ## [5.0.0] - 2025-01-09
 ### Added
@@ -195,7 +192,7 @@ This is an alpha version! The changes listed here are not final.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[6.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v5.0.0...v6.0.0-alpha
+[6.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0
 [3.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v2.8.0...v3.0.0
