@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [6.0.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update package dependencies.
+
 ## [6.0.0] - 2025-05-13
 ### Added
 - Add documentation for included custom sniffs. [#42752]
@@ -192,6 +199,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Codesniffer: Add a package to hold our coding standard
 
+[6.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.0...v6.0.1-alpha
 [6.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v5.0.0...v6.0.0
 [5.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v4.0.0...v5.0.0
 [4.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v3.0.0...v4.0.0
