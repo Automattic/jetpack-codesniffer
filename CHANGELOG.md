@@ -21,6 +21,7 @@ This is an alpha version! The changes listed here are not final.
 - Drop support for PHP 8.0, following upstream `mediawiki/mediawiki-codesniffer` package.
 
 ### Fixed
+- Ensure proper flags are used with `json_encode()`.
 - Tests: Improve compatibility with PHP 8.5.
 
 ## [6.0.1] - 2025-08-06
