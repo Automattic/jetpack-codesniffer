@@ -12,6 +12,7 @@ This is an alpha version! The changes listed here are not final.
 ### Added
 - Add `Jetpack-Compat-85` ruleset.
 - Add `Jetpack.PHPUnit.FunctionCoversBackslash` sniff.
+- New sniff `Jetpack.Functions.JsonEncodeFlags`.
 
 ### Changed
 - Replace `MediaWiki.Usage.NestedFunctions` with `Squiz.PHP.InnerFunctions`.
