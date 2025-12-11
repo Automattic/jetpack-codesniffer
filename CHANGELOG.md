@@ -11,6 +11,7 @@ This is an alpha version! The changes listed here are not final.
 
 ### Added
 - Add `Jetpack-Compat-85` ruleset.
+- Add `Jetpack.Functions.EscJs` sniff.
 - Add `Jetpack.PHPUnit.FunctionCoversBackslash` sniff.
 - New sniff `Jetpack.Functions.JsonEncodeFlags`.
 
