@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - New sniff `Jetpack.Functions.JsonEncodeFlags`.
 
 ### Changed
+- Add `Automattic\Jetpack\Codesniffer\Utils\IsTestClassTrait`.
 - Replace `MediaWiki.Usage.NestedFunctions` with `Squiz.PHP.InnerFunctions`.
 - Update `mediawiki/mediawiki-codesniffer` to v48.0.0.
 
