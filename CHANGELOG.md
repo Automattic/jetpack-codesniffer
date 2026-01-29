@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [7.0.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Update minimum WordPress version to 6.8 in README example.
+
 ## [7.0.0] - 2025-12-16
 
 As of version 7.0.0, this package is now under the MIT license.
@@ -219,6 +226,7 @@ Previous versions were licensed GPL v2.0-or-later.
 
 - Codesniffer: Add a package to hold our coding standard
 
+[7.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v7.0.0...v7.0.1-alpha
 [7.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.0...v6.0.1
 [6.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v5.0.0...v6.0.0
