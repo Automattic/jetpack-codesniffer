@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Jetpack-Tests: No longer exclude `test-*.php` type filenames from WordPress naming. We shouldn't have any anymore now that PHPUnit requires `*Test.php` style naming.
 - Update minimum WordPress version to 6.8 in README example.
 
 ## [7.0.0] - 2025-12-16
