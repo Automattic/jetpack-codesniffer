@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [8.0.1-alpha] - unreleased
+
+This is an alpha version! The changes listed here are not final.
+
+### Changed
+- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
+
 ## [8.0.0] - 2026-04-13
 ### Changed
 - Jetpack-Tests: No longer exclude `test-*.php` type filenames from WordPress naming. We shouldn't have any anymore now that PHPUnit requires `*Test.php` style naming. [#46843]
@@ -228,6 +235,7 @@ Previous versions were licensed GPL v2.0-or-later.
 
 - Codesniffer: Add a package to hold our coding standard
 
+[8.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.0.0...v8.0.1-alpha
 [8.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v7.0.0...v8.0.0
 [7.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.0...v6.0.1
