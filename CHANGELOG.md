@@ -5,9 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [8.0.1-alpha] - unreleased
+## [8.1.0-alpha] - unreleased
 
 This is an alpha version! The changes listed here are not final.
+
+### Added
+- Add the Jetpack.FeatureFlags.FeatureFlagName sniff to validate feature flag names registered via the jetpack-feature-flags package.
 
 ### Changed
 - Bump `minimum_supported_wp_version` in README to 6.9.
@@ -236,7 +239,7 @@ Previous versions were licensed GPL v2.0-or-later.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[8.0.1-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.0.0...v8.0.1-alpha
+[8.1.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.0.0...v8.1.0-alpha
 [8.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v7.0.0...v8.0.0
 [7.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.1...v7.0.0
 [6.0.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v6.0.0...v6.0.1
