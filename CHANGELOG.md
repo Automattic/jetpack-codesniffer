@@ -16,6 +16,7 @@ This is an alpha version! The changes listed here are not final.
 - Bump `minimum_supported_wp_version` in README to 6.9.
 - Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency.
 - Update package dependencies.
+- Update `Jetpack-Compat-*` rulesets.
 
 ## [8.0.0] - 2026-04-13
 ### Changed
