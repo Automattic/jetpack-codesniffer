@@ -9,6 +9,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 This is an alpha version! The changes listed here are not final.
 
+### Security
+- Exclude the WordPress.WP.EnqueuedResourceParameters sniff from the Jetpack standard: versions of WordPressCS before 3.4.1 pass untrusted code through eval() when the sniff runs (GHSA-3pwp-g2mj-5p3v).
+
 ### Added
 - Add the Jetpack.FeatureFlags.FeatureFlagName sniff to validate feature flag names registered via the jetpack-feature-flags package.
 
