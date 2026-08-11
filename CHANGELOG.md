@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
+- Stop ignoring the php_codesniffer advisory PKSA-rdkp-vv9z-mjkg, as the fixed 3.13.6 release is now installable here.
 - Update package dependencies.
 
 ## [8.1.1] - 2026-07-28
