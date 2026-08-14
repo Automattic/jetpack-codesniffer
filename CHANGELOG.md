@@ -10,27 +10,27 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 This is an alpha version! The changes listed here are not final.
 
 ### Changed
-- Stop ignoring the php_codesniffer advisory PKSA-rdkp-vv9z-mjkg, as the fixed 3.13.6 release is now installable here.
 - Update mediawiki/mediawiki-codesniffer ruleset to v52.
+- Update mediawiki/mediawiki-codesniffer ruleset to v52.0.1.
 - Update package dependencies.
+- Update wp-coding-standards/wpcs ruleset to v3.4.1 and re-enable `WordPress.WP.EnqueuedResourceParameters`.
 
 ### Removed
 - Drop support for PHP 8.2, following upstream dependencies.
 
 ## [8.1.1] - 2026-07-28
-### Fixed
-- Keep the package installable while WPCS 3.4.1 is blocked by mediawiki/mediawiki-codesniffer: cap wp-coding-standards/wpcs below 3.4.1 and ignore the GHSA-3pwp-g2mj-5p3v advisory (the vulnerable sniff is already excluded).
+### Changed
+- Cap wp-coding-standards/wpcs below 3.4.1. [#50867]
 
 ## [8.1.0] - 2026-07-28
 ### Security
-- Exclude the WordPress.WP.EnqueuedResourceParameters sniff from the Jetpack standard: versions of WordPressCS before 3.4.1 pass untrusted code through eval() when the sniff runs (GHSA-3pwp-g2mj-5p3v).
+- Exclude the WordPress.WP.EnqueuedResourceParameters sniff from the Jetpack standard: versions of WordPressCS before 3.4.1 pass untrusted code through eval() when the sniff runs (GHSA-3pwp-g2mj-5p3v). [#50839]
 
 ### Added
 - Add the Jetpack.FeatureFlags.FeatureFlagName sniff to validate feature flag names registered via the jetpack-feature-flags package. [#49698]
 
 ### Changed
 - Bump `minimum_supported_wp_version` in README to 6.9. [#49021]
-- Internal: No longer require automattic/jetpack-changelogger as a per-project dev dependency. [#48225]
 - Update package dependencies. [#50237]
 - Update `Jetpack-Compat-*` rulesets. [#50240]
 
