@@ -5,19 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [9.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [9.0.0] - 2026-08-24
 ### Changed
-- Bump `minimum_supported_wp_version` in README to 7.0.
-- Update mediawiki/mediawiki-codesniffer ruleset to v52.
-- Update mediawiki/mediawiki-codesniffer ruleset to v52.0.1.
-- Update package dependencies.
-- Update wp-coding-standards/wpcs ruleset to v3.4.1 and re-enable `WordPress.WP.EnqueuedResourceParameters`.
+- Bump `minimum_supported_wp_version` in README to 7.0. [#51370]
+- Update mediawiki/mediawiki-codesniffer ruleset to v52.0.1. [#51291]
+- Update package dependencies. [#50872]
+- Update wp-coding-standards/wpcs ruleset to v3.4.1 and re-enable `WordPress.WP.EnqueuedResourceParameters`. [#51291]
 
 ### Removed
-- Drop support for PHP 8.2, following upstream dependencies.
+- Drop support for PHP 8.2, following upstream dependencies. [#51252]
 
 ## [8.1.1] - 2026-07-28
 ### Changed
@@ -258,7 +254,7 @@ Previous versions were licensed GPL v2.0-or-later.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[9.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.1.1...v9.0.0-alpha
+[9.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.1.1...v9.0.0
 [8.1.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.1.0...v8.1.1
 [8.1.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.0.0...v8.1.0
 [8.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v7.0.0...v8.0.0
