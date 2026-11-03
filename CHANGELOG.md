@@ -5,15 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [10.0.0-alpha] - unreleased
-
-This is an alpha version! The changes listed here are not final.
-
+## [10.0.0] - 2026-11-03
 ### Added
-- Codesniffer ruleset should now be used with `testVersion` set to `7.4-`. New sniffs may be reported.
+- Codesniffer ruleset should now be used with `testVersion` set to `7.4-`. New sniffs may be reported. [#51568]
 
 ### Removed
-- Remove `Jetpack-Compat-73` and `Jetpack-Compat-74` rulesets. Base ruleset is now targeting PHP 7.4.
+- Remove `Jetpack-Compat-73` and `Jetpack-Compat-74` rulesets. Base ruleset is now targeting PHP 7.4. [#51568]
 
 ## [9.0.0] - 2026-08-24
 ### Changed
@@ -264,7 +261,7 @@ Previous versions were licensed GPL v2.0-or-later.
 
 - Codesniffer: Add a package to hold our coding standard
 
-[10.0.0-alpha]: https://github.com/Automattic/jetpack-codesniffer/compare/v9.0.0...v10.0.0-alpha
+[10.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v9.0.0...v10.0.0
 [9.0.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.1.1...v9.0.0
 [8.1.1]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.1.0...v8.1.1
 [8.1.0]: https://github.com/Automattic/jetpack-codesniffer/compare/v8.0.0...v8.1.0
